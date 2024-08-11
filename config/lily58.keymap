@@ -73,7 +73,7 @@
             bindings = <
 &kp LEFT_ARROW                &kp UP_ARROW       &kp DOWN_ARROW     &kp RIGHT_ARROW    &kp LC(W)                &kp LC(Q)                               &trans       &trans     &trans        &trans           &trans    &bt BT_CLR_ALL
 &kp LS(LA(LC(LEFT_BRACKET)))  &kp LC(LA(LS(Q)))  &kp LC(LA(LS(W)))  &kp LC(LA(LS(E)))  &kp LC(R)                &kp LC(E)                               &trans       &trans     &kp UP_ARROW  &trans           &trans    &trans
-&kp LEFT_CONTROL              &kp LC(LA(LS(A)))  &kp LC(LA(LS(S)))  &kp LA(LC(LS(D)))  &kp LC(A)                &kp LC(Z)                               &trans       &kp LEFT   &kp DOWN      &kp RIGHT_ARROW  &trans    &trans
+&kp LEFT_CONTROL              &kp LC(LA(LS(A)))  &kp LC(LA(LS(S)))  &kp LA(LC(LS(D)))  &kp LC(A)                &kp LC(Z)                               &kp HOME     &kp LEFT   &kp DOWN      &kp RIGHT_ARROW  &kp END   &trans
 &kp LEFT_SHIFT                &kp LS(LA(LC(Z)))  &kp LS(LA(LC(X)))  &kp LS(LA(LC(C)))  &kp LC(X)                &kp LC(T)  &kp LG(S)    &bt BT_NXT      &kp KP_PLUS  &kp MINUS  &kp EQUAL     &kp LBKT         &kp RBKT  &kp BSLH
                                                                     &kp LEFT_ALT       &mt LEFT_COMMAND DELETE  &trans     &kp SPACE    &kp LEFT_SHIFT  &trans       &trans     &trans
             >;
